@@ -6,6 +6,7 @@ public class Die {
     private int faceValue;
 
     public int getFaceValue() {
+        rollDie();
         return faceValue;
     }
 

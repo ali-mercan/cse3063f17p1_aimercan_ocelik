@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -5,6 +6,8 @@ public class Monopoly_Game {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
+        Die die1 = new Die();
+        Die die2 = new Die();
         int playerNumber;
 
         System.out.print("Please enter player number: ");
@@ -26,14 +29,44 @@ public class Monopoly_Game {
         }
 
         String playerNames[] = new String[playerNumber];
+        int startingDiceValues[] = new int[playerNumber];
 
         for(int i=0; i<playerNumber; i++){
             System.out.print("Please enter the name of player"+(i+1)+":  ");
             playerNames[i] = input.next();
+            startingDiceValues[i] = die1.getFaceValue() + die2.getFaceValue();
+
+            for(int j=0; j<i; j++){
+                if(startingDiceValues[i]==startingDiceValues[j]){
+                    startingDiceValues[i] = die1.getFaceValue() + die2.getFaceValue();
+                    j=0;
+                }
+            }
         }
 
-        Die die1 = new Die();
-        Die die2 = new Die();
+        for(int i=0; i<startingDiceValues.length; i++){
+            System.out.println("Player"+(i+1)+"'s name is: "+playerNames[i]+". Dice value is: "+startingDiceValues[i]);
+        }
+        int[] sdvClone =  startingDiceValues.clone();
+        String[] pnClone = playerNames.clone();
+        Arrays.sort(startingDiceValues);
+
+        for(int i=0; i<startingDiceValues.length; i++){
+            for(int j=0; j<startingDiceValues.length; j++){
+                if(sdvClone[i]==startingDiceValues[j]){
+                    playerNames[playerNames.length-j-1]=pnClone[i];
+                }
+            }
+        }
+
+        for(int i=0; i<startingDiceValues.length; i++){
+            System.out.println("Player"+(i+1)+"'s name is: "+playerNames[i]+". Dice value is: "+startingDiceValues[startingDiceValues.length-i-1]);
+        }
+
+        startingDiceValues=null;
+        sdvClone=null;
+        pnClone=null;
+
         Board board = new Board(playerNames);
 
         for (int j = 0; j<10; j++) {
@@ -49,9 +82,6 @@ public class Monopoly_Game {
 
                 System.out.println(board.getPlayers()[i].getName()+" is currently at Square "+board.getPlayers()[i].getCurrentSquare()+".");
                 System.out.println(board.getPlayers()[i].getName()+" rolled the dice.");
-                die1.rollDie();
-                die2.rollDie();
-
                 System.out.println("Dice show: " + die1.getFaceValue() +" and "+die2.getFaceValue());
                 board.getPlayers()[i].setCurrentSquare(die1.getFaceValue() + die2.getFaceValue());
                 System.out.println(board.getPlayers()[i].getName() +" moved "+ (die1.getFaceValue() + die2.getFaceValue())+" squares.");
