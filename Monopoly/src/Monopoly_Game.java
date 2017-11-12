@@ -133,6 +133,8 @@ public class Monopoly_Game {
                             case 30:
                                 board.getPlayers()[i].setInJail(true);
                                 board.getPlayers()[i].setCurrentSquareNumber(10);
+                                System.out.println(board.getPlayers()[i].getName() + " is send to Jail Sqauare.");
+                                System.out.println(board.getPlayers()[i].getName() + " is now at Jail Sqauare.");
                                 break;
                             case 38:
                                 System.out.println(board.getPlayers()[i].getName() + " paid $75 as Luxury Tax.");
