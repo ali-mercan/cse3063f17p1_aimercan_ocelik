@@ -91,61 +91,69 @@ public class Monopoly_Game {
         for (int j = 0; j<iterationNumber ; j++) {
             for (int i = 0; i < playerNumber; i++) {
 
-                if(board.getPlayers()[i].getMoney() > 0){
-                    System.out.println(board.getPlayers()[i].getName()+"'s turn. \nTurn number: "+(j+1));
-                    switch (i+1){
-                        case 1:  System.out.println(board.getPlayers()[i].getName()+" is "+(i+1)+"st player."); break;
-                        case 2:  System.out.println(board.getPlayers()[i].getName()+" is "+(i+1)+"nd player."); break;
-                        case 3:  System.out.println(board.getPlayers()[i].getName()+" is "+(i+1)+"rd player."); break;
-                        default: System.out.println(board.getPlayers()[i].getName()+" is "+(i+1)+"th player."); break;
+                if (board.getPlayers()[i].getMoney() > 0) {
+                    System.out.println(board.getPlayers()[i].getName() + "'s turn. \nTurn number: " + (j + 1));
+                    switch (i + 1) {
+                        case 1:
+                            System.out.println(board.getPlayers()[i].getName() + " is " + (i + 1) + "st player.");
+                            break;
+                        case 2:
+                            System.out.println(board.getPlayers()[i].getName() + " is " + (i + 1) + "nd player.");
+                            break;
+                        case 3:
+                            System.out.println(board.getPlayers()[i].getName() + " is " + (i + 1) + "rd player.");
+                            break;
+                        default:
+                            System.out.println(board.getPlayers()[i].getName() + " is " + (i + 1) + "th player.");
+                            break;
                     }
 
-                    System.out.println(board.getPlayers()[i].getName()+"'s total cash is $"+board.getPlayers()[i].getMoney()+".");
-                    System.out.println(board.getPlayers()[i].getName()+" is currently at "+board.getSquares()[board.getPlayers()[i].getCurrentSquareNumber()].getSquareName()+".");
-                    if(!board.getPlayers()[i].isInJail()){
-                        System.out.println(board.getPlayers()[i].getName()+" rolled the dice.");
+                    System.out.println(board.getPlayers()[i].getName() + "'s total cash is $" + board.getPlayers()[i].getMoney() + ".");
+                    System.out.println(board.getPlayers()[i].getName() + " is currently at " + board.getSquares()[board.getPlayers()[i].getCurrentSquareNumber()].getSquareName() + ".");
+                    if (!board.getPlayers()[i].isInJail()) {
+                        System.out.println(board.getPlayers()[i].getName() + " rolled the dice.");
                         die1.rollDie();
                         die2.rollDie();
-                        System.out.println("Dice show: " + die1.getFaceValue() +" and "+die2.getFaceValue());
-                        System.out.println("Total value of dice : " + (die1.getFaceValue() +die2.getFaceValue()));
-                        System.out.println(board.getPlayers()[i].getName() +" moved "+ (die1.getFaceValue() + die2.getFaceValue())+" squares.");
-                        board.getPlayers()[i].setCurrentSquareNumber(board.getSquares()[(board.getPlayers()[i].getCurrentSquareNumber()+die1.getFaceValue() +die2.getFaceValue())%40].getSquareNumber());
-                        System.out.println(board.getPlayers()[i].getName()+" landed in "+board.getSquares()[board.getPlayers()[i].getCurrentSquareNumber()].getSquareName()+".");
-                        switch (board.getPlayers()[i].getCurrentSquareNumber()){
+                        System.out.println("Dice show: " + die1.getFaceValue() + " and " + die2.getFaceValue());
+                        System.out.println("Total value of dice : " + (die1.getFaceValue() + die2.getFaceValue()));
+                        System.out.println(board.getPlayers()[i].getName() + " moved " + (die1.getFaceValue() + die2.getFaceValue()) + " squares.");
+                        board.getPlayers()[i].setCurrentSquareNumber(board.getSquares()[(board.getPlayers()[i].getCurrentSquareNumber() + die1.getFaceValue() + die2.getFaceValue()) % 40].getSquareNumber());
+                        System.out.println(board.getPlayers()[i].getName() + " landed in " + board.getSquares()[board.getPlayers()[i].getCurrentSquareNumber()].getSquareName() + ".");
+                        switch (board.getPlayers()[i].getCurrentSquareNumber()) {
                             case 0:
                                 board.getPlayers()[i].setMoney(200);
-                                System.out.println(board.getPlayers()[i].getName()+" earned $200.");
-                                System.out.println(board.getPlayers()[i].getName()+"'s total cash is $"+board.getPlayers()[i].getMoney()+".");
+                                System.out.println(board.getPlayers()[i].getName() + " earned $200.");
+                                System.out.println(board.getPlayers()[i].getName() + "'s total cash is $" + board.getPlayers()[i].getMoney() + ".");
                                 break;
                             case 4:
-                                System.out.println(board.getPlayers()[i].getName()+" paid $"+(int)board.getPlayers()[i].getMoney()/10+" as Income Tax.");
-                                board.getPlayers()[i].setMoney(-(board.getPlayers()[i].getMoney()/10));
-                                System.out.println(board.getPlayers()[i].getName()+"'s total cash is $"+board.getPlayers()[i].getMoney()+".");
+                                System.out.println(board.getPlayers()[i].getName() + " paid $" + (int) board.getPlayers()[i].getMoney() / 10 + " as Income Tax.");
+                                board.getPlayers()[i].setMoney(-(board.getPlayers()[i].getMoney() / 10));
+                                System.out.println(board.getPlayers()[i].getName() + "'s total cash is $" + board.getPlayers()[i].getMoney() + ".");
                                 break;
                             case 30:
                                 board.getPlayers()[i].setInJail(true);
                                 board.getPlayers()[i].setCurrentSquareNumber(10);
                                 break;
                             case 38:
-                                System.out.println(board.getPlayers()[i].getName()+" paid $75 as Luxury Tax.");
+                                System.out.println(board.getPlayers()[i].getName() + " paid $75 as Luxury Tax.");
                                 board.getPlayers()[i].setMoney(-75);
-                                System.out.println(board.getPlayers()[i].getName()+"'s total cash is $"+board.getPlayers()[i].getMoney()+".");
-                                if(board.getPlayers()[i].getMoney() <= 0){
-                                    System.out.println(board.getPlayers()[i].getName()+" went bankrupt and removed from the game.");
+                                System.out.println(board.getPlayers()[i].getName() + "'s total cash is $" + board.getPlayers()[i].getMoney() + ".");
+                                if (board.getPlayers()[i].getMoney() <= 0) {
+                                    System.out.println(board.getPlayers()[i].getName() + " went bankrupt and removed from the game.");
                                 }
                                 break;
                         }
                     }
-                }
-                else{
-                    if(board.getPlayers()[i].getMoney() > 50){
-                        board.getPlayers()[i].setMoney(-50);
-                        board.getPlayers()[i].setInJail(false);
-                        System.out.println(board.getPlayers()[i].getName()+" paid $50 to get out of the jail.");
-                        System.out.println(board.getPlayers()[i].getName()+"'s total cash is $"+board.getPlayers()[i].getMoney()+".");
+                    else {
+                        if (board.getPlayers()[i].getMoney() > 50) {
+                            board.getPlayers()[i].setMoney(-50);
+                            board.getPlayers()[i].setInJail(false);
+                            System.out.println(board.getPlayers()[i].getName() + " paid $50 to get out of the jail.");
+                            System.out.println(board.getPlayers()[i].getName() + "'s total cash is $" + board.getPlayers()[i].getMoney() + ".");
+                        }
                     }
+                    System.out.println();
                 }
-                System.out.println();
             }
         }
     }
