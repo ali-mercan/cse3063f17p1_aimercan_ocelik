@@ -1,15 +1,18 @@
 public class Square {
 
-    private String name;
-    private Money price;
+    private int squareNumber;
+    private String squareName;
 
-    public String getName() {
-        return name;
+    public Square(int squareNumber,String squareName) {
+        this.squareNumber = squareNumber;
+        this.squareName = squareName;
     }
 
-    public Money getPrice() {
-        return price;
+    public int getSquareNumber() {
+        return squareNumber;
     }
 
-
+    public String getSquareName() {
+        return squareName;
+    }
 }

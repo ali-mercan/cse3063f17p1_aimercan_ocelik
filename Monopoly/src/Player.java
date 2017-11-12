@@ -1,11 +1,9 @@
 public class Player {
 
     private String name;
-    private Money balance;
-    private int currentSquare=1;
-    private Square estate;
-    private boolean inJail;
-    private boolean turn;
+    private int money=200;
+    private int currentSquareNumber=0;
+    private boolean inJail = false;
 
     public Player(String name) {
         this.name = name;
@@ -15,12 +13,27 @@ public class Player {
         return name;
     }
 
-    public int getCurrentSquare() {
-        return currentSquare;
+    public int getCurrentSquareNumber() {
+        return currentSquareNumber;
     }
 
-    public void setCurrentSquare(int move) {
-        currentSquare += move;
-        currentSquare %= 40;
+    public void setCurrentSquareNumber(int currentSquareNumber) {
+        this.currentSquareNumber = currentSquareNumber;
+    }
+
+    public int getMoney() {
+        return money;
+    }
+
+    public void setMoney(int money) {
+        this.money += money;
+    }
+
+    public boolean isInJail() {
+        return inJail;
+    }
+
+    public void setInJail(boolean inJail) {
+        this.inJail = inJail;
     }
 }
