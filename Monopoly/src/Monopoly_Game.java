@@ -8,9 +8,8 @@ public class Monopoly_Game {
         Scanner input = new Scanner(System.in);
         Die die1 = new Die();
         Die die2 = new Die();
-        int playerNumber;
-        int iterationNumber;
-        System.out.print("Please enter player number: ");
+        int playerNumber = Integer.parseInt(args[0]);
+     /*   System.out.print("Please enter player number: ");
 
         while (true) {
             try {
@@ -26,7 +25,7 @@ public class Monopoly_Game {
                 System.out.print("Invalid input. Please reenter player number: ");
                 input.nextLine();
             }
-        }
+        }*/
 
         String playerNames[] = new String[playerNumber];
         int startingDiceValues[] = new int[playerNumber];
@@ -45,18 +44,6 @@ public class Monopoly_Game {
                     startingDiceValues[i] = die1.getFaceValue() + die2.getFaceValue();
                     j=0;
                 }
-            }
-        }
-
-        System.out.print("Please enter iteration number: ");
-        while (true) {
-            try {
-                iterationNumber = input.nextInt();
-                break;
-            }
-            catch (InputMismatchException e) {
-                System.out.print("Invalid input. Please reenter iteration number: ");
-                input.nextLine();
             }
         }
 
@@ -85,9 +72,9 @@ public class Monopoly_Game {
         startingDiceValues=null;
         sdvClone=null;
         pnClone=null;
-
-        Board board = new Board(playerNames);
-        board.play(iterationNumber);
-
+        Board board = new Board();
+        board.generatePlayers(playerNames,Integer.parseInt(args[1]));
+      board.play();
+//       board.print();
     }
 }

@@ -1,12 +1,13 @@
 public class Player {
 
     private String name;
-    private int money=200;
+    private int money;
     private int currentSquareNumber=0;
     private boolean inJail = false;
 
-    public Player(String name) {
+    public Player(String name,int money) {
         this.name = name;
+        this.money = money;
     }
 
     public String getName() {
