@@ -1,0 +1,1042 @@
+jan's turn. 
+Turn number: 1
+jan is 1st player.
+jan's total cash is $500.
+jan is currently at Go Square.
+jan rolled the dice.
+Dice show: 4 and 6
+Total value of dice : 10
+jan moved 10 squares.
+jan landed in Jail Square.
+
+celik's turn. 
+Turn number: 1
+celik is 2nd player.
+celik's total cash is $500.
+celik is currently at Go Square.
+celik rolled the dice.
+Dice show: 2 and 2
+Total value of dice : 4
+celik moved 4 squares.
+celik landed in Income Tax Square.
+celik paid $45 as Income Tax.
+celik's total cash is $450.
+
+oguzcna's turn. 
+Turn number: 1
+oguzcna is 3rd player.
+oguzcna's total cash is $500.
+oguzcna is currently at Go Square.
+oguzcna rolled the dice.
+Dice show: 4 and 3
+Total value of dice : 7
+oguzcna moved 7 squares.
+oguzcna landed in Square 8.
+
+bogdan's turn. 
+Turn number: 1
+bogdan is 4th player.
+bogdan's total cash is $500.
+bogdan is currently at Go Square.
+bogdan rolled the dice.
+Dice show: 1 and 3
+Total value of dice : 4
+bogdan moved 4 squares.
+bogdan landed in Income Tax Square.
+bogdan paid $45 as Income Tax.
+bogdan's total cash is $450.
+
+vesely's turn. 
+Turn number: 1
+vesely is 5th player.
+vesely's total cash is $500.
+vesely is currently at Go Square.
+vesely rolled the dice.
+Dice show: 1 and 3
+Total value of dice : 4
+vesely moved 4 squares.
+vesely landed in Income Tax Square.
+vesely paid $45 as Income Tax.
+vesely's total cash is $450.
+
+jan's turn. 
+Turn number: 2
+jan is 1st player.
+jan's total cash is $500.
+jan is currently at Jail Square.
+jan rolled the dice.
+Dice show: 2 and 3
+Total value of dice : 5
+jan moved 5 squares.
+jan landed in Rail Road 2.
+jan rolled a die to buy the square.
+Die shows 5.
+jan bought the Rail Road 2.
+jan's total cash is $300.
+
+celik's turn. 
+Turn number: 2
+celik is 2nd player.
+celik's total cash is $450.
+celik is currently at Income Tax Square.
+celik rolled the dice.
+Dice show: 2 and 5
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Square 12.
+celik rolled a die to buy the square.
+Die shows 1.
+
+oguzcna's turn. 
+Turn number: 2
+oguzcna is 3rd player.
+oguzcna's total cash is $500.
+oguzcna is currently at Square 8.
+oguzcna rolled the dice.
+Dice show: 4 and 4
+Total value of dice : 8
+oguzcna moved 8 squares.
+oguzcna landed in Rail Road 2.
+oguzcna rolled a die to buy the square.
+Die shows 4.
+oguzcna paid $2025 as rent to jan.
+oguzcna's total cash is $505.
+jan's total cash is $345.
+
+bogdan's turn. 
+Turn number: 2
+bogdan is 4th player.
+bogdan's total cash is $450.
+bogdan is currently at Income Tax Square.
+bogdan rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+bogdan moved 6 squares.
+bogdan landed in Jail Square.
+
+vesely's turn. 
+Turn number: 2
+vesely is 5th player.
+vesely's total cash is $450.
+vesely is currently at Income Tax Square.
+vesely rolled the dice.
+Dice show: 5 and 4
+Total value of dice : 9
+vesely moved 9 squares.
+vesely landed in Square 14.
+vesely rolled a die to buy the square.
+Die shows 1.
+
+jan's turn. 
+Turn number: 3
+jan is 1st player.
+jan's total cash is $345.
+jan is currently at Rail Road 2.
+jan rolled the dice.
+Dice show: 2 and 4
+Total value of dice : 6
+jan moved 6 squares.
+jan landed in Square 22.
+jan rolled a die to buy the square.
+Die shows 6.
+jan bought the Square 22.
+jan's total cash is $125.
+
+celik's turn. 
+Turn number: 3
+celik is 2nd player.
+celik's total cash is $450.
+celik is currently at Square 12.
+celik rolled the dice.
+Dice show: 4 and 5
+Total value of dice : 9
+celik moved 9 squares.
+celik landed in Free Parking Square.
+
+oguzcna's turn. 
+Turn number: 3
+oguzcna is 3rd player.
+oguzcna's total cash is $505.
+oguzcna is currently at Rail Road 2.
+oguzcna rolled the dice.
+Dice show: 3 and 2
+Total value of dice : 5
+oguzcna moved 5 squares.
+oguzcna landed in Free Parking Square.
+
+bogdan's turn. 
+Turn number: 3
+bogdan is 4th player.
+bogdan's total cash is $450.
+bogdan is currently at Jail Square.
+bogdan rolled the dice.
+Dice show: 2 and 1
+Total value of dice : 3
+bogdan moved 3 squares.
+bogdan landed in Square 14.
+bogdan rolled a die to buy the square.
+Die shows 1.
+
+vesely's turn. 
+Turn number: 3
+vesely is 5th player.
+vesely's total cash is $450.
+vesely is currently at Square 14.
+vesely rolled the dice.
+Dice show: 4 and 5
+Total value of dice : 9
+vesely moved 9 squares.
+vesely landed in Square 23.
+
+jan's turn. 
+Turn number: 4
+jan is 1st player.
+jan's total cash is $125.
+jan is currently at Square 22.
+jan rolled the dice.
+Dice show: 2 and 1
+Total value of dice : 3
+jan moved 3 squares.
+jan landed in Square 25.
+jan does not have enough money to buy Square 25.
+
+celik's turn. 
+Turn number: 4
+celik is 2nd player.
+celik's total cash is $450.
+celik is currently at Free Parking Square.
+celik rolled the dice.
+Dice show: 4 and 1
+Total value of dice : 5
+celik moved 5 squares.
+celik landed in Rail Road 3.
+celik rolled a die to buy the square.
+Die shows 6.
+celik bought the Rail Road 3.
+celik's total cash is $250.
+
+oguzcna's turn. 
+Turn number: 4
+oguzcna is 3rd player.
+oguzcna's total cash is $505.
+oguzcna is currently at Free Parking Square.
+oguzcna rolled the dice.
+Dice show: 5 and 5
+Total value of dice : 10
+oguzcna moved 10 squares.
+oguzcna landed in Go To Jail Square.
+oguzcna is send to Jail Square.
+oguzcna is now at Jail Square.
+
+bogdan's turn. 
+Turn number: 4
+bogdan is 4th player.
+bogdan's total cash is $450.
+bogdan is currently at Square 14.
+bogdan rolled the dice.
+Dice show: 5 and 5
+Total value of dice : 10
+bogdan moved 10 squares.
+bogdan landed in Square 24.
+bogdan rolled a die to buy the square.
+Die shows 2.
+
+vesely's turn. 
+Turn number: 4
+vesely is 5th player.
+vesely's total cash is $450.
+vesely is currently at Square 23.
+vesely rolled the dice.
+Dice show: 1 and 5
+Total value of dice : 6
+vesely moved 6 squares.
+vesely landed in Water Utility.
+vesely rolled a die.
+Die shows 6.
+vesely bought the Water Utility.
+vesely's total cash is $300.
+
+jan's turn. 
+Turn number: 5
+jan is 1st player.
+jan's total cash is $125.
+jan is currently at Square 25.
+jan rolled the dice.
+Dice show: 3 and 4
+Total value of dice : 7
+jan moved 7 squares.
+jan landed in Square 32.
+jan does not have enough money to buy Square 32.
+
+celik's turn. 
+Turn number: 5
+celik is 2nd player.
+celik's total cash is $250.
+celik is currently at Rail Road 3.
+celik rolled the dice.
+Dice show: 2 and 5
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Square 33.
+celik does not have enough money to buy Square 33.
+
+oguzcna's turn. 
+Turn number: 5
+oguzcna is 3rd player.
+oguzcna's total cash is $505.
+oguzcna is currently at Jail Square.
+oguzcna paid $50 to get out of the jail.
+oguzcna's total cash is $455.
+
+bogdan's turn. 
+Turn number: 5
+bogdan is 4th player.
+bogdan's total cash is $450.
+bogdan is currently at Square 24.
+bogdan rolled the dice.
+Dice show: 4 and 3
+Total value of dice : 7
+bogdan moved 7 squares.
+bogdan landed in Go To Jail Square.
+bogdan is send to Jail Square.
+bogdan is now at Jail Square.
+
+vesely's turn. 
+Turn number: 5
+vesely is 5th player.
+vesely's total cash is $300.
+vesely is currently at Water Utility.
+vesely rolled the dice.
+Dice show: 4 and 6
+Total value of dice : 10
+vesely moved 10 squares.
+vesely landed in Luxury Tax Square.
+vesely paid $75 as Luxury Tax.
+vesely's total cash is $225.
+
+jan's turn. 
+Turn number: 6
+jan is 1st player.
+jan's total cash is $125.
+jan is currently at Square 32.
+jan rolled the dice.
+Dice show: 5 and 6
+Total value of dice : 11
+jan moved 11 squares.
+jan landed in Square 3.
+
+celik's turn. 
+Turn number: 6
+celik is 2nd player.
+celik's total cash is $250.
+celik is currently at Square 33.
+celik rolled the dice.
+Dice show: 3 and 2
+Total value of dice : 5
+celik moved 5 squares.
+celik landed in Square 38.
+celik does not have enough money to buy Square 38.
+
+oguzcna's turn. 
+Turn number: 6
+oguzcna is 3rd player.
+oguzcna's total cash is $455.
+oguzcna is currently at Jail Square.
+oguzcna rolled the dice.
+Dice show: 3 and 5
+Total value of dice : 8
+oguzcna moved 8 squares.
+oguzcna landed in Square 19.
+oguzcna rolled a die to buy the square.
+Die shows 4.
+
+bogdan's turn. 
+Turn number: 6
+bogdan is 4th player.
+bogdan's total cash is $450.
+bogdan is currently at Jail Square.
+bogdan paid $50 to get out of the jail.
+bogdan's total cash is $400.
+
+vesely's turn. 
+Turn number: 6
+vesely is 5th player.
+vesely's total cash is $225.
+vesely is currently at Luxury Tax Square.
+vesely rolled the dice.
+Dice show: 3 and 1
+Total value of dice : 4
+vesely moved 4 squares.
+vesely landed in Square 3.
+
+jan's turn. 
+Turn number: 7
+jan is 1st player.
+jan's total cash is $125.
+jan is currently at Square 3.
+jan rolled the dice.
+Dice show: 4 and 4
+Total value of dice : 8
+jan moved 8 squares.
+jan landed in Jail Square.
+
+celik's turn. 
+Turn number: 7
+celik is 2nd player.
+celik's total cash is $250.
+celik is currently at Square 38.
+celik rolled the dice.
+Dice show: 6 and 1
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Income Tax Square.
+celik paid $22 as Income Tax.
+celik's total cash is $225.
+
+oguzcna's turn. 
+Turn number: 7
+oguzcna is 3rd player.
+oguzcna's total cash is $455.
+oguzcna is currently at Square 19.
+oguzcna rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+oguzcna moved 6 squares.
+oguzcna landed in Square 25.
+oguzcna rolled a die to buy the square.
+Die shows 6.
+oguzcna bought the Square 25.
+oguzcna's total cash is $215.
+
+bogdan's turn. 
+Turn number: 7
+bogdan is 4th player.
+bogdan's total cash is $400.
+bogdan is currently at Jail Square.
+bogdan rolled the dice.
+Dice show: 2 and 3
+Total value of dice : 5
+bogdan moved 5 squares.
+bogdan landed in Rail Road 2.
+bogdan rolled a die to buy the square.
+Die shows 1.
+bogdan paid $525 as rent to jan.
+bogdan's total cash is $420.
+jan's total cash is $155.
+
+vesely's turn. 
+Turn number: 7
+vesely is 5th player.
+vesely's total cash is $225.
+vesely is currently at Square 3.
+vesely rolled the dice.
+Dice show: 1 and 6
+Total value of dice : 7
+vesely moved 7 squares.
+vesely landed in Square 10.
+vesely rolled a die to buy the square.
+Die shows 5.
+vesely bought the Square 10.
+vesely's total cash is $105.
+
+jan's turn. 
+Turn number: 8
+jan is 1st player.
+jan's total cash is $155.
+jan is currently at Jail Square.
+jan rolled the dice.
+Dice show: 2 and 4
+Total value of dice : 6
+jan moved 6 squares.
+jan landed in Square 17.
+jan does not have enough money to buy Square 17.
+
+celik's turn. 
+Turn number: 8
+celik is 2nd player.
+celik's total cash is $225.
+celik is currently at Income Tax Square.
+celik rolled the dice.
+Dice show: 5 and 2
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Square 12.
+celik rolled a die to buy the square.
+Die shows 3.
+
+oguzcna's turn. 
+Turn number: 8
+oguzcna is 3rd player.
+oguzcna's total cash is $215.
+oguzcna is currently at Square 25.
+oguzcna rolled the dice.
+Dice show: 3 and 5
+Total value of dice : 8
+oguzcna moved 8 squares.
+oguzcna landed in Square 33.
+oguzcna does not have enough money to buy Square 33.
+
+bogdan's turn. 
+Turn number: 8
+bogdan is 4th player.
+bogdan's total cash is $420.
+bogdan is currently at Rail Road 2.
+bogdan rolled the dice.
+Dice show: 4 and 2
+Total value of dice : 6
+bogdan moved 6 squares.
+bogdan landed in Square 22.
+bogdan paid $18 as rent to jan.
+bogdan's total cash is $402.
+jan's total cash is $173.
+
+vesely's turn. 
+Turn number: 8
+vesely is 5th player.
+vesely's total cash is $105.
+vesely is currently at Square 10.
+vesely rolled the dice.
+Dice show: 5 and 2
+Total value of dice : 7
+vesely moved 7 squares.
+vesely landed in Square 17.
+vesely does not have enough money to buy Square 17.
+
+jan's turn. 
+Turn number: 9
+jan is 1st player.
+jan's total cash is $173.
+jan is currently at Square 17.
+jan rolled the dice.
+Dice show: 5 and 4
+Total value of dice : 9
+jan moved 9 squares.
+jan landed in Rail Road 3.
+jan rolled a die to buy the square.
+Die shows 1.
+jan paid $525 as rent to celik.
+jan's total cash is $193.
+celik's total cash is $255.
+
+celik's turn. 
+Turn number: 9
+celik is 2nd player.
+celik's total cash is $255.
+celik is currently at Square 12.
+celik rolled the dice.
+Dice show: 4 and 4
+Total value of dice : 8
+celik moved 8 squares.
+celik landed in Square 20.
+celik rolled a die to buy the square.
+Die shows 4.
+
+oguzcna's turn. 
+Turn number: 9
+oguzcna is 3rd player.
+oguzcna's total cash is $215.
+oguzcna is currently at Square 33.
+oguzcna rolled the dice.
+Dice show: 6 and 6
+Total value of dice : 12
+oguzcna moved 12 squares.
+oguzcna landed in Income Tax Square.
+oguzcna paid $19 as Income Tax.
+oguzcna's total cash is $194.
+
+bogdan's turn. 
+Turn number: 9
+bogdan is 4th player.
+bogdan's total cash is $402.
+bogdan is currently at Square 22.
+bogdan rolled the dice.
+Dice show: 6 and 5
+Total value of dice : 11
+bogdan moved 11 squares.
+bogdan landed in Square 33.
+bogdan rolled a die to buy the square.
+Die shows 2.
+
+vesely's turn. 
+Turn number: 9
+vesely is 5th player.
+vesely's total cash is $105.
+vesely is currently at Square 17.
+vesely rolled the dice.
+Dice show: 6 and 5
+Total value of dice : 11
+vesely moved 11 squares.
+vesely landed in Square 28.
+vesely does not have enough money to buy Square 28.
+
+jan's turn. 
+Turn number: 10
+jan is 1st player.
+jan's total cash is $193.
+jan is currently at Rail Road 3.
+jan rolled the dice.
+Dice show: 5 and 6
+Total value of dice : 11
+jan moved 11 squares.
+jan landed in Square 37.
+
+celik's turn. 
+Turn number: 10
+celik is 2nd player.
+celik's total cash is $255.
+celik is currently at Square 20.
+celik rolled the dice.
+Dice show: 4 and 5
+Total value of dice : 9
+celik moved 9 squares.
+celik landed in Water Utility.
+celik rolled a die.
+Die shows 3.
+celik paid $30 as rent to vesely.
+celik's total cash is $225.
+vesely's total cash is $135.
+
+oguzcna's turn. 
+Turn number: 10
+oguzcna is 3rd player.
+oguzcna's total cash is $194.
+oguzcna is currently at Income Tax Square.
+oguzcna rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+oguzcna moved 6 squares.
+oguzcna landed in Jail Square.
+
+bogdan's turn. 
+Turn number: 10
+bogdan is 4th player.
+bogdan's total cash is $402.
+bogdan is currently at Square 33.
+bogdan rolled the dice.
+Dice show: 6 and 2
+Total value of dice : 8
+bogdan moved 8 squares.
+bogdan landed in Go Square.
+bogdan earned $200.
+bogdan's total cash is $602.
+
+vesely's turn. 
+Turn number: 10
+vesely is 5th player.
+vesely's total cash is $135.
+vesely is currently at Square 28.
+vesely rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+vesely moved 6 squares.
+vesely landed in Square 34.
+
+jan's turn. 
+Turn number: 11
+jan is 1st player.
+jan's total cash is $193.
+jan is currently at Square 37.
+jan rolled the dice.
+Dice show: 4 and 1
+Total value of dice : 5
+jan moved 5 squares.
+jan landed in Square 2.
+jan rolled a die to buy the square.
+Die shows 3.
+
+celik's turn. 
+Turn number: 11
+celik is 2nd player.
+celik's total cash is $225.
+celik is currently at Water Utility.
+celik rolled the dice.
+Dice show: 3 and 4
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Rail Road 4.
+celik rolled a die to buy the square.
+Die shows 6.
+celik bought the Rail Road 4.
+celik's total cash is $25.
+
+oguzcna's turn. 
+Turn number: 11
+oguzcna is 3rd player.
+oguzcna's total cash is $194.
+oguzcna is currently at Jail Square.
+oguzcna rolled the dice.
+Dice show: 2 and 2
+Total value of dice : 4
+oguzcna moved 4 squares.
+oguzcna landed in Square 15.
+oguzcna rolled a die to buy the square.
+Die shows 6.
+oguzcna bought the Square 15.
+oguzcna's total cash is $34.
+
+bogdan's turn. 
+Turn number: 11
+bogdan is 4th player.
+bogdan's total cash is $602.
+bogdan is currently at Go Square.
+bogdan rolled the dice.
+Dice show: 6 and 6
+Total value of dice : 12
+bogdan moved 12 squares.
+bogdan landed in Electric Utility.
+bogdan rolled a die.
+Die shows 5.
+bogdan bought the Electric Utility.
+bogdan's total cash is $452.
+
+vesely's turn. 
+Turn number: 11
+vesely is 5th player.
+vesely's total cash is $135.
+vesely is currently at Square 34.
+vesely rolled the dice.
+Dice show: 2 and 6
+Total value of dice : 8
+vesely moved 8 squares.
+vesely landed in Square 2.
+vesely rolled a die to buy the square.
+Die shows 5.
+vesely bought the Square 2.
+vesely's total cash is $75.
+
+jan's turn. 
+Turn number: 12
+jan is 1st player.
+jan's total cash is $193.
+jan is currently at Square 2.
+jan rolled the dice.
+Dice show: 3 and 5
+Total value of dice : 8
+jan moved 8 squares.
+jan landed in Square 10.
+jan paid $8 as rent to vesely.
+jan's total cash is $185.
+vesely's total cash is $83.
+
+celik's turn. 
+Turn number: 12
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Rail Road 4.
+celik rolled the dice.
+Dice show: 6 and 5
+Total value of dice : 11
+celik moved 11 squares.
+celik landed in Square 7.
+celik does not have enough money to buy Square 7.
+
+oguzcna's turn. 
+Turn number: 12
+oguzcna is 3rd player.
+oguzcna's total cash is $34.
+oguzcna is currently at Square 15.
+oguzcna rolled the dice.
+Dice show: 3 and 1
+Total value of dice : 4
+oguzcna moved 4 squares.
+oguzcna landed in Square 19.
+oguzcna does not have enough money to buy Square 19.
+
+bogdan's turn. 
+Turn number: 12
+bogdan is 4th player.
+bogdan's total cash is $452.
+bogdan is currently at Electric Utility.
+bogdan rolled the dice.
+Dice show: 5 and 1
+Total value of dice : 6
+bogdan moved 6 squares.
+bogdan landed in Square 19.
+bogdan rolled a die to buy the square.
+Die shows 6.
+bogdan bought the Square 19.
+bogdan's total cash is $272.
+
+vesely's turn. 
+Turn number: 12
+vesely is 5th player.
+vesely's total cash is $83.
+vesely is currently at Square 2.
+vesely rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+vesely moved 6 squares.
+vesely landed in Square 8.
+
+jan's turn. 
+Turn number: 13
+jan is 1st player.
+jan's total cash is $185.
+jan is currently at Square 10.
+jan rolled the dice.
+Dice show: 5 and 5
+Total value of dice : 10
+jan moved 10 squares.
+jan landed in Square 20.
+jan does not have enough money to buy Square 20.
+
+celik's turn. 
+Turn number: 13
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Square 7.
+celik rolled the dice.
+Dice show: 2 and 5
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Square 14.
+celik does not have enough money to buy Square 14.
+
+oguzcna's turn. 
+Turn number: 13
+oguzcna is 3rd player.
+oguzcna's total cash is $34.
+oguzcna is currently at Square 19.
+oguzcna rolled the dice.
+Dice show: 2 and 6
+Total value of dice : 8
+oguzcna moved 8 squares.
+oguzcna landed in Square 27.
+oguzcna does not have enough money to buy Square 27.
+
+bogdan's turn. 
+Turn number: 13
+bogdan is 4th player.
+bogdan's total cash is $272.
+bogdan is currently at Square 19.
+bogdan rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+bogdan moved 6 squares.
+bogdan landed in Square 25.
+bogdan paid $20 as rent to oguzcna.
+bogdan's total cash is $252.
+oguzcna's total cash is $54.
+
+vesely's turn. 
+Turn number: 13
+vesely is 5th player.
+vesely's total cash is $83.
+vesely is currently at Square 8.
+vesely rolled the dice.
+Dice show: 1 and 3
+Total value of dice : 4
+vesely moved 4 squares.
+vesely landed in Square 12.
+vesely does not have enough money to buy Square 12.
+
+jan's turn. 
+Turn number: 14
+jan is 1st player.
+jan's total cash is $185.
+jan is currently at Square 20.
+jan rolled the dice.
+Dice show: 5 and 4
+Total value of dice : 9
+jan moved 9 squares.
+jan landed in Water Utility.
+jan rolled a die.
+Die shows 6.
+jan paid $60 as rent to vesely.
+jan's total cash is $125.
+vesely's total cash is $143.
+
+celik's turn. 
+Turn number: 14
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Square 14.
+celik rolled the dice.
+Dice show: 5 and 5
+Total value of dice : 10
+celik moved 10 squares.
+celik landed in Square 24.
+celik does not have enough money to buy Square 24.
+
+oguzcna's turn. 
+Turn number: 14
+oguzcna is 3rd player.
+oguzcna's total cash is $54.
+oguzcna is currently at Square 27.
+oguzcna rolled the dice.
+Dice show: 4 and 1
+Total value of dice : 5
+oguzcna moved 5 squares.
+oguzcna landed in Square 32.
+oguzcna does not have enough money to buy Square 32.
+
+bogdan's turn. 
+Turn number: 14
+bogdan is 4th player.
+bogdan's total cash is $252.
+bogdan is currently at Square 25.
+bogdan rolled the dice.
+Dice show: 5 and 2
+Total value of dice : 7
+bogdan moved 7 squares.
+bogdan landed in Square 32.
+bogdan does not have enough money to buy Square 32.
+
+vesely's turn. 
+Turn number: 14
+vesely is 5th player.
+vesely's total cash is $143.
+vesely is currently at Square 12.
+vesely rolled the dice.
+Dice show: 5 and 6
+Total value of dice : 11
+vesely moved 11 squares.
+vesely landed in Square 23.
+
+jan's turn. 
+Turn number: 15
+jan is 1st player.
+jan's total cash is $125.
+jan is currently at Water Utility.
+jan rolled the dice.
+Dice show: 6 and 4
+Total value of dice : 10
+jan moved 10 squares.
+jan landed in Luxury Tax Square.
+jan does not have enough money to pay the Luxury Tax.
+
+celik's turn. 
+Turn number: 15
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Square 24.
+celik rolled the dice.
+Dice show: 1 and 6
+Total value of dice : 7
+celik moved 7 squares.
+celik landed in Go To Jail Square.
+celik is send to Jail Square.
+celik is now at Jail Square.
+
+oguzcna's turn. 
+Turn number: 15
+oguzcna is 3rd player.
+oguzcna's total cash is $54.
+oguzcna is currently at Square 32.
+oguzcna rolled the dice.
+Dice show: 6 and 4
+Total value of dice : 10
+oguzcna moved 10 squares.
+oguzcna landed in Square 2.
+oguzcna paid $2 as rent to vesely.
+oguzcna's total cash is $52.
+vesely's total cash is $145.
+
+bogdan's turn. 
+Turn number: 15
+bogdan is 4th player.
+bogdan's total cash is $252.
+bogdan is currently at Square 32.
+bogdan rolled the dice.
+Dice show: 1 and 1
+Total value of dice : 2
+bogdan moved 2 squares.
+bogdan landed in Square 34.
+
+vesely's turn. 
+Turn number: 15
+vesely is 5th player.
+vesely's total cash is $145.
+vesely is currently at Square 23.
+vesely rolled the dice.
+Dice show: 4 and 5
+Total value of dice : 9
+vesely moved 9 squares.
+vesely landed in Square 32.
+vesely does not have enough money to buy Square 32.
+
+jan's turn. 
+Turn number: 16
+jan is 1st player.
+jan's total cash is $50.
+jan is currently at Luxury Tax Square.
+jan rolled the dice.
+Dice show: 4 and 3
+Total value of dice : 7
+jan moved 7 squares.
+jan landed in Rail Road 1.
+jan does not have enough money to buy Rail Road 1.
+
+celik's turn. 
+Turn number: 16
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Jail Square.
+
+oguzcna's turn. 
+Turn number: 16
+oguzcna is 3rd player.
+oguzcna's total cash is $52.
+oguzcna is currently at Square 2.
+oguzcna rolled the dice.
+Dice show: 6 and 5
+Total value of dice : 11
+oguzcna moved 11 squares.
+oguzcna landed in Electric Utility.
+oguzcna rolled a die.
+Die shows 4.
+oguzcna paid $40 as rent to bogdan.
+oguzcna's total cash is $12.
+bogdan's total cash is $292.
+
+bogdan's turn. 
+Turn number: 16
+bogdan is 4th player.
+bogdan's total cash is $292.
+bogdan is currently at Square 34.
+bogdan rolled the dice.
+Dice show: 3 and 6
+Total value of dice : 9
+bogdan moved 9 squares.
+bogdan landed in Square 3.
+
+vesely's turn. 
+Turn number: 16
+vesely is 5th player.
+vesely's total cash is $145.
+vesely is currently at Square 32.
+vesely rolled the dice.
+Dice show: 1 and 1
+Total value of dice : 2
+vesely moved 2 squares.
+vesely landed in Square 34.
+
+jan's turn. 
+Turn number: 17
+jan is 1st player.
+jan's total cash is $50.
+jan is currently at Rail Road 1.
+jan rolled the dice.
+Dice show: 6 and 6
+Total value of dice : 12
+jan moved 12 squares.
+jan landed in Square 18.
+
+celik's turn. 
+Turn number: 17
+celik is 2nd player.
+celik's total cash is $25.
+celik is currently at Jail Square.
+
+oguzcna's turn. 
+Turn number: 17
+oguzcna is 3rd player.
+oguzcna's total cash is $12.
+oguzcna is currently at Electric Utility.
+oguzcna rolled the dice.
+Dice show: 3 and 3
+Total value of dice : 6
+oguzcna moved 6 squares.
+oguzcna landed in Square 19.
+oguzcna does not have enough money to pay the rent for this square.
+oguzcna went bankrupt and removed from the game.
