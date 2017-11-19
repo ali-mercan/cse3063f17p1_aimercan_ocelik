@@ -2,7 +2,7 @@ public class Player {
 
     private String name;
     private int money;
-    private int currentSquareNumber=0;
+    private int currentSquareNumber = 0;
     private boolean inJail = false;
 
     public Player(String name,int money) {
