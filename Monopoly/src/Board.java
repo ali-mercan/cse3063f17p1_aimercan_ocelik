@@ -11,7 +11,7 @@ public class Board {
 
     public Board() {
         try {
-            x = new Scanner(new File("C:\\Users\\oguzc\\IdeaProjects\\Monopoly\\src\\Monopoly-Lots.txt"));
+            x = new Scanner(new File("Monopoly-Lots.txt"));
         } catch (Exception e) {
             System.out.println("Monopoly-Lots.txt can not found.");
         }
