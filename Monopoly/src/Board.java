@@ -7,18 +7,18 @@ public class Board {
     private Square[] squares = new Square[40];
     private Die die1 = new Die();
     private Die die2 = new Die();
-    private Scanner x;
+    private Scanner sc;
     private BufferedWriter bw = null;
 
     public Board() {
         try {
-            x = new Scanner(new File("Monopoly-Lots.txt"));
+            sc = new Scanner(new File("Monopoly-Lots.txt"));
         } catch (Exception e) {
             System.out.println("Monopoly-Lots.txt can not found.");
         }
 
-        while (x.hasNext()) {
-            String[] temp = x.nextLine().split(",");
+        while (sc.hasNext()) {
+            String[] temp = sc.nextLine().split(",");
             int a = Integer.parseInt(temp[0]);
             if(a <= 40){
                 squares[a - 1] = new Lot_Square(a - 1, "Square " + a, Integer.parseInt(temp[1]), Integer.parseInt(temp[2]));
@@ -74,26 +74,35 @@ public class Board {
 
     public void play() {
 
-        boolean play = true;
+        int currentPlayerNumber = players.length;
 
-        for (int turnNumber = 0; play; turnNumber++) {
+        for (int turnNumber = 0; 0 < currentPlayerNumber; turnNumber++) {
 
-            for (int i = 0; i < players.length; i++) {
+            for (int i = 0, a = 0; i < players.length; i++, a++) {
+
+                if(players[i].getMoney() <= 0 ){
+                    a--;
+                    continue;
+                } else if (currentPlayerNumber == 1){
+                    write(("THE WINNER IS "+ players[i].getName() + ".").toUpperCase());
+                    currentPlayerNumber--;
+                    break;
+                }
 
                 write(players[i].getName() + "'s turn. \nTurn number: " + (turnNumber + 1));
 
-                switch (i + 1) {
+                switch (a + 1) {
                     case 1:
-                        write(players[i].getName() + " is " + (i + 1) + "st player.");
+                        write(players[i].getName() + " is " + (a + 1) + "st player.");
                         break;
                     case 2:
-                        write(players[i].getName() + " is " + (i + 1) + "nd player.");
+                        write(players[i].getName() + " is " + (a + 1) + "nd player.");
                         break;
                     case 3:
-                        write(players[i].getName() + " is " + (i + 1) + "rd player.");
+                        write(players[i].getName() + " is " + (a + 1) + "rd player.");
                         break;
                     default:
-                        write(players[i].getName() + " is " + (i + 1) + "th player.");
+                        write(players[i].getName() + " is " + (a + 1) + "th player.");
                 }
 
                 write(players[i].getName() + "'s total cash is $" + players[i].getMoney() + ".");
@@ -131,7 +140,7 @@ public class Board {
                             break;
                         case "Luxury_Tax_Square":
                             players[i].setMoney(-75);
-                            if (players[i].getMoney() > 75){
+                            if (players[i].getMoney() > 0){
                                 write(players[i].getName() + " paid $75 as Luxury Tax.");
                                 write(players[i].getName() + "'s total cash is $" + players[i].getMoney() + ".");
                             } else {
@@ -256,22 +265,27 @@ public class Board {
                             break;
                     }
                 } else {
-                    if (players[i].getMoney() > 50) {
-                        players[i].setMoney(-50);
+                    players[i].setMoney(-50);
+                    if (players[i].getMoney() > 0) {
                         players[i].setInJail(false);
                         write(players[i].getName() + " paid $50 to get out of the jail.");
                         write(players[i].getName() + "'s total cash is $" + players[i].getMoney() + ".");
+                    } else {
+                        write(players[i].getName()+" does not have enough money to get out of the jail.");
                     }
                 }
                 if (players[i].getMoney() <= 0) {
                     write(players[i].getName() + " went bankrupt and removed from the game.");
-                    play = false;
-                    break;
+                    for(int j = 0; j < squares.length; j++){
+                        if( squares[j].getOwnerNumber() == i){
+                            squares[j].setOwnerNumber(-1);
+                        }
+                    }
+                    currentPlayerNumber--;
+
                 }
                 write("\r");
-
             }
-            //turnNumber++;
         }
     }
 
