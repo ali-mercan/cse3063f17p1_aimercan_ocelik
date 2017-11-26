@@ -4,6 +4,8 @@ public class Player {
     private int money;
     private int currentSquareNumber = 0;
     private boolean inJail = false;
+    private int doubleCounter = 0;
+    private int inJailTurnNumber = 0;
 
     public Player(String name,int money) {
         this.name = name;
@@ -36,5 +38,25 @@ public class Player {
 
     public void setInJail(boolean inJail) {
         this.inJail = inJail;
+    }
+
+    public int getDoubleCounter() {
+        return doubleCounter;
+    }
+
+    public void resetDoubleCounter() {
+        doubleCounter = 0;
+    }
+
+    public void increaseDoubleCounter(){
+        doubleCounter++;
+    }
+
+    public int getInJailTurnNumber() {
+        return inJailTurnNumber;
+    }
+
+    public void setInJailTurnNumber(int inJailTurnNumber) {
+        this.inJailTurnNumber = inJailTurnNumber;
     }
 }

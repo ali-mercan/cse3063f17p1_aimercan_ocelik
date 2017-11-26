@@ -4,9 +4,16 @@ import java.util.Scanner;
 public class Monopoly_Game {
     public static void main(String[] args) {
 
+        if(args.length < 2){
+            System.out.println("\nWrong argument number.");
+            System.out.println("\nUsage: java Monopoly_game playerNumber initialCash");
+            return;
+        }
+
         Scanner input = new Scanner(System.in);
         Die die1 = new Die();
         Die die2 = new Die();
+        Board board = new Board();
         int playerNumber = Integer.parseInt(args[0]);
 
         String playerNames[] = new String[playerNumber];
@@ -29,9 +36,11 @@ public class Monopoly_Game {
             }
         }
 
-        System.out.println("\nDice tournament started.\n");
+        board.write("\r");
+        board.write("Dice tournament started.");
+        board.write("\r");
         for (int i = 0; i < startingDiceValues.length; i++) {
-            System.out.println(playerNames[i] + "'s dice value is: " + startingDiceValues[i]);
+            board.write(playerNames[i] + "'s dice value is: " + startingDiceValues[i]);
         }
 
         int[] sdvClone = startingDiceValues.clone();
@@ -46,30 +55,31 @@ public class Monopoly_Game {
             }
         }
 
-        System.out.println("\nDice tournament ended.\nCurrent positions: \n");
+        board.write("\r");
+        board.write("Dice tournament ended. Current positions:");
+        board.write("\r");
         for (int i = 0; i < startingDiceValues.length; i++) {
 
             switch (i + 1) {
                 case 1:
-                    System.out.print("1st");
+                    board.write("1st player is " + playerNames[i] + " with a dice value of: " + startingDiceValues[startingDiceValues.length - i - 1]);
                     break;
                 case 2:
-                    System.out.print("2nd");
+                    board.write("2nd player is " + playerNames[i] + " with a dice value of: " + startingDiceValues[startingDiceValues.length - i - 1]);
                     break;
                 case 3:
-                    System.out.print("3rd");
+                    board.write("3rd player is " + playerNames[i] + " with a dice value of: " + startingDiceValues[startingDiceValues.length - i - 1]);
                     break;
                 default:
-                    System.out.print((i + 1) + "th");
+                    board.write((i + 1) + "th player is " + playerNames[i] + " with a dice value of: " + startingDiceValues[startingDiceValues.length - i - 1]);
             }
-            System.out.println(" player is " + playerNames[i] + " with a dice value of: " + startingDiceValues[startingDiceValues.length - i - 1]);
         }
-        System.out.println();
+        board.write("\r");
         startingDiceValues = null;
         sdvClone = null;
         pnClone = null;
 
-        Board board = new Board();
+        board.generateSquares();
         board.generatePlayers(playerNames, Integer.parseInt(args[1]));
         board.play();
     }
