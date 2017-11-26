@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Monopoly_Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Monopoly_Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Monopoly_Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,21 +24,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="481">
+              <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#generatePlayers#0;class#Board#0" expanded="false" />
-                <element signature="method#play#0;class#Board#0" expanded="false" />
                 <element signature="method#write#0;class#Board#0" expanded="false" />
-                <marker date="1511710845785" expanded="true" signature="3078:20400" ph="{...}" />
-                <marker date="1511710845785" expanded="true" signature="3146:20390" ph="{...}" />
-                <marker date="1511710845785" expanded="false" signature="3592:4123" ph="{...}" />
-                <marker date="1511710845785" expanded="true" signature="4404:18464" ph="{...}" />
-                <marker date="1511710845785" expanded="true" signature="19930:20318" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -110,7 +104,7 @@
         <option value="$PROJECT_DIR$/src/Money.java" />
         <option value="$PROJECT_DIR$/src/Go_To_Jail.java" />
         <option value="$PROJECT_DIR$/src/Die.java" />
-        <option value="$USER_HOME$/Desktop/test.java" />
+        <option value="$PROJECT_DIR$/../../../test.java" />
         <option value="$PROJECT_DIR$/src/Luxury_Tax_Square.java" />
         <option value="$PROJECT_DIR$/src/Go_To_Jail_Square.java" />
         <option value="$PROJECT_DIR$/src/Income_Tax_Square.java" />
@@ -121,11 +115,11 @@
         <option value="$PROJECT_DIR$/src/Utility_Square.java" />
         <option value="$PROJECT_DIR$/src/Square.java" />
         <option value="$PROJECT_DIR$/src/Railroad_Square.java" />
-        <option value="$USER_HOME$/Desktop/Board.java" />
-        <option value="$USER_HOME$/Desktop/Assembler.java" />
+        <option value="$PROJECT_DIR$/../../../Board.java" />
+        <option value="$PROJECT_DIR$/../../../Assembler.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/Monopoly_Game.java" />
         <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/src/Monopoly_Game.java" />
       </list>
     </option>
   </component>
@@ -150,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,9 +157,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +338,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10248902" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112737924" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,13 +421,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#generatePlayers#0;class#Board#0" expanded="false" />
-            <element signature="method#play#0;class#Board#0" expanded="false" />
             <element signature="method#write#0;class#Board#0" expanded="false" />
-            <marker date="1511710845785" expanded="true" signature="3078:20400" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="3146:20390" ph="{...}" />
-            <marker date="1511710845785" expanded="false" signature="3592:4123" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="4404:18464" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="19930:20318" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -468,13 +456,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#generatePlayers#0;class#Board#0" expanded="false" />
-            <element signature="method#play#0;class#Board#0" expanded="false" />
             <element signature="method#write#0;class#Board#0" expanded="false" />
-            <marker date="1511710845785" expanded="true" signature="3078:20400" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="3146:20390" ph="{...}" />
-            <marker date="1511710845785" expanded="false" signature="3592:4123" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="4404:18464" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="19930:20318" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -513,7 +495,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.java" />
+    <entry file="file://$PROJECT_DIR$/../../../test.java" />
     <entry file="file://$PROJECT_DIR$/src/Go_To_Jail_Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -535,13 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Test/src/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Test/src/Child.java" />
     <entry file="file://$PROJECT_DIR$/src/Luxury_Tax_Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -549,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/cse/LabJava/Week5/StartsWith.java">
+    <entry file="file://$PROJECT_DIR$/../../../cse/LabJava/Week5/StartsWith.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -608,7 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Assembler.java" />
+    <entry file="file://$PROJECT_DIR$/../../../Assembler.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1736">
@@ -638,30 +614,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Monopoly_Game.java">
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="481">
+          <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#generatePlayers#0;class#Board#0" expanded="false" />
+            <element signature="method#write#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/Monopoly_Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#generatePlayers#0;class#Board#0" expanded="false" />
-            <element signature="method#play#0;class#Board#0" expanded="false" />
-            <element signature="method#write#0;class#Board#0" expanded="false" />
-            <marker date="1511710845785" expanded="true" signature="3078:20400" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="3146:20390" ph="{...}" />
-            <marker date="1511710845785" expanded="false" signature="3592:4123" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="4404:18464" ph="{...}" />
-            <marker date="1511710845785" expanded="true" signature="19930:20318" ph="{...}" />
           </folding>
         </state>
       </provider>

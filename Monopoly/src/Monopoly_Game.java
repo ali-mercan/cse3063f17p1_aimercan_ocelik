@@ -8,6 +8,24 @@ public class Monopoly_Game {
             System.out.println("\nWrong argument number.");
             System.out.println("\nUsage: java Monopoly_game playerNumber initialCash");
             return;
+        } else {
+            try {
+                if (Integer.parseInt(args[0]) < 2 || Integer.parseInt(args[0]) > 8){
+                    System.out.println("\nWrong input.");
+                    System.out.println("\nPlayer number should be between 2 and 8.");
+                    return;
+                }
+
+                if (Integer.parseInt(args[1]) <= 0){
+                    System.out.println("\nWrong input.");
+                    System.out.println("\nInitial money should be greater than 0.");
+                    return;
+                }
+            } catch(Exception e){
+                System.out.println("\nWrong input.");
+                System.out.println("\nPlayer number and initial money must be integers.");
+                return;
+            }
         }
 
         Scanner input = new Scanner(System.in);
