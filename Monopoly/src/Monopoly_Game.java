@@ -6,7 +6,7 @@ public class Monopoly_Game {
 
         if(args.length < 2){
             System.out.println("\nWrong argument number.");
-            System.out.println("\nUsage: java Monopoly_game playerNumber initialCash");
+            System.out.println("\nUsage: java Monopoly_Game playerNumber initialCash");
             return;
         } else {
             try {
