@@ -26,6 +26,7 @@ isInFile = {}
 tfidf = {}
 fileCounter = 0
 
+
 #
 # Read from pdf file, word by word
 #
@@ -36,7 +37,7 @@ def readFromPdf(pdfName):
     for i in range(pdfReader.getNumPages()):
         page = pdfReader.getPage(i).extractText().split()
         for j in page:
-            temp = re.sub('[-/{}[()!@#$.,:;><&1234567890]', '', j).lower()
+            temp = re.sub('[-/{}[()!@#£$.,:*"“;><&1234567890]', '', j).lower()
             if temp not in sw and len(temp) > 1:
                 if temp in words:
                     words[temp] += 1
@@ -50,6 +51,7 @@ def readFromPdf(pdfName):
                     isInFile[temp] = 1
     file.close()
 
+
 #
 # Read from text file, word by word
 #
@@ -57,7 +59,7 @@ def readFromTxt(txtName):
     global words, wordFile, isInFile
     file = open(txtName)
     for i in file.read().split():
-        temp = re.sub('[-/{}[()!@#$.,:;><&1234567890]', '', i).lower()
+        temp = re.sub('[-/{}[()!@#£$.,:*"“;><&1234567890]', '', i).lower()
         if temp not in sw and len(temp) > 1:
             if temp in words:
                 words[temp] += 1
@@ -70,6 +72,7 @@ def readFromTxt(txtName):
                 wordFile[temp] = 1
                 isInFile[temp] = 1
     file.close()
+
 
 # Get pdf files from the directory and send to readFromPdf function
 fileList = glob.glob('*.pdf')
